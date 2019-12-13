@@ -11,7 +11,6 @@
 		C323FB2E238C51FD00B7DE13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C323FB2D238C51FD00B7DE13 /* ViewController.swift */; };
 		C323FB31238C51FD00B7DE13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C323FB2F238C51FD00B7DE13 /* Main.storyboard */; };
 		C323FB33238C51FE00B7DE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C323FB32238C51FE00B7DE13 /* Assets.xcassets */; };
-		C323FB36238C51FE00B7DE13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C323FB34238C51FE00B7DE13 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,9 +19,7 @@
 		C323FB2D238C51FD00B7DE13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C323FB30238C51FD00B7DE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C323FB32238C51FE00B7DE13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C323FB35238C51FE00B7DE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C323FB37238C51FE00B7DE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C323FB3E238C53F600B7DE13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +56,6 @@
 				C323FB2D238C51FD00B7DE13 /* ViewController.swift */,
 				C323FB2F238C51FD00B7DE13 /* Main.storyboard */,
 				C323FB32238C51FE00B7DE13 /* Assets.xcassets */,
-				C323FB34238C51FE00B7DE13 /* LaunchScreen.storyboard */,
 				C323FB37238C51FE00B7DE13 /* Info.plist */,
 			);
 			path = bookClubApp;
@@ -123,7 +119,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C323FB36238C51FE00B7DE13 /* LaunchScreen.storyboard in Resources */,
 				C323FB33238C51FE00B7DE13 /* Assets.xcassets in Resources */,
 				C323FB31238C51FD00B7DE13 /* Main.storyboard in Resources */,
 			);
@@ -150,15 +145,6 @@
 				C323FB30238C51FD00B7DE13 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C323FB34238C51FE00B7DE13 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C323FB35238C51FE00B7DE13 /* Base */,
-				C323FB3E238C53F600B7DE13 /* en */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
